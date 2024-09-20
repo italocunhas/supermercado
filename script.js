@@ -1,22 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Este evento 'DOMContentLoaded' é acionado
-            // quando todo o conteúdo HTML foi completamente carregado,
-    // sem esperar pelo CSS, imagens ou iframes para
-            // finalizar. É o ponto onde é seguro manipular o DOM.
+   
 
     let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
-    // Tenta recuperar o array 'carrinho' do
-            // armazenamento local (localStorage).
-    // 'JSON.parse' converte a string JSON armazenada de
-            // volta para um objeto JavaScript.
-    // Se 'localStorage.getItem('carrinho')' retorna
-            // null (carrinho não existe), o operador '||' garante
-            // que 'carrinho' será um array vazio.
-
+    
     const categorias = {
 
-        // Declara um objeto 'categorias' que contém arrays
-                // de objetos para cada categoria de produtos.
+        
         "Alimentos": [
 
             // Array de objetos representando produtos na
