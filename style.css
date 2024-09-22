@@ -12,9 +12,7 @@
 .bg-imagem-topo {
 
     width: 100%;  
-    /* Define a largura da imagem para ocupar 100% do 
-            elemento pai, garantindo que a imagem estenda-se 
-            por toda a largura disponível. */
+   
 
     height: 200px; 
     /* Estabelece uma altura fixa de 200 pixels para a 

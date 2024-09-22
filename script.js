@@ -8,8 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         "Alimentos": [
 
-            // Array de objetos representando produtos na
-                    // categoria "Alimentos".
+        
             { id: 1, nome: "Arroz", descricao: "Arroz branco longo, 5kg", imagemUrl: "imagens/arroz.jpg", preco: "19,90" },
             // Cada objeto tem um 'id' único, 'nome', 'descricao', 'imagemUrl'
                     // para a foto do produto, e 'preco'.
